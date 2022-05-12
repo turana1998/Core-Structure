@@ -1,7 +1,6 @@
 
 <?php
 $settings=$CRUD->Select("settings");
-//print_r($data);
 if (isset($_POST["settings"])) {
     $olcu = $_FILES["logo"]["size"];
     $tip = $_FILES["logo"]["type"];

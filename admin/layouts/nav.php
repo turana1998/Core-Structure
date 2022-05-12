@@ -26,8 +26,8 @@
                     <span>Kateqoriya</span>
                 </a>
                 <ul>
-                    <li><a class="active"  href="<?= $BASE_URL ?>?link=category-add">Kateqoriya</a></li>
-                    <li><a href="<?= $BASE_URL ?>?link=category-list"> Kateqoriya Siyahi</a></li>
+                    <li><a class="active"  href="<?= $BASE_URL ?>?link=category-add">Kateqoriya əlavə</a></li>
+                    <li><a href="<?= $BASE_URL ?>?link=category-list"> Kateqoriya Siyahı</a></li>
                 </ul>
             </li>
             <li class="mm-active">
@@ -38,8 +38,8 @@
                     <span>AltKateqoriya</span>
                 </a>
                 <ul>
-                    <li><a class="active"  href="<?= $BASE_URL ?>?link=subcategory-add">Kateqoriya</a></li>
-                    <li><a href="<?= $BASE_URL ?>?link=subcategory-list"> Kateqoriya Siyahi</a></li>
+                    <li><a class="active"  href="<?= $BASE_URL ?>?link=subcategory-add">Alt Kateqoriya əlavə</a></li>
+                    <li><a href="<?= $BASE_URL ?>?link=subcategory-list">Alt  Kateqoriya Siyahı</a></li>
                 </ul>
             </li>
             <li class="mm-active">
@@ -50,8 +50,8 @@
                     <span>Elan</span>
                 </a>
                 <ul>
-                    <li><a class="active"  href="<?= $BASE_URL ?>?link=announcement-add">Elan elave</a></li>
-                    <li><a href="<?= $BASE_URL ?>?link=announcement-list"> elan Siyahi</a></li>
+                    <li><a class="active"  href="<?= $BASE_URL ?>?link=announcement-add">Elan əlavə</a></li>
+                    <li><a href="<?= $BASE_URL ?>?link=announcement-list"> Elan Siyahı</a></li>
                 </ul>
             </li>
         </ul>

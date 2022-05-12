@@ -1,4 +1,5 @@
-<?php require_once  "./code/category/category.php"?>
+<?php require_once  "./code/category/category.php"
+?>
 <div class="main_content_iner ">
     <div class="container-fluid p-0 sm_padding_15px">
         <div class="row justify-content-center">
@@ -17,10 +18,13 @@
                             <form action="#" method="POST">
                                <div class="row mb-3">
 
-                                    <div class=" col-12">
-                                        <label class="form-label" for="inputZip">Ad:</label>
+                                    <div class=" col-12 col-lg-6">
+                                        <label class="form-label" for="inputZip">Ad:
+                                            <span class="error">* <?php echo $titleErr;?></span>
+                                        </label>
                                         <input type="text" class="form-control" id="inputZip"
                                              name="title">
+
                                     </div>
                                 </div>
 
