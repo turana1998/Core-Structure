@@ -66,9 +66,17 @@ require_once "./code/subcategory/update.php"?>
                                     <thead>
                                     <tr>
                                         <th scope="col">Id</th>
-                                        <th scope="col">Title</th>
-                                        <th scope="col">Slug</th>
-                                        <th scope="col">Operations</th>
+                                        <th scope="col">category</th>
+                                        <th scope="col">Sub category</th>
+                                        <th scope="col">min_salary</th>
+                                        <th scope="col">min_salary</th>
+                                        <th scope="col">company</th>
+                                        <th scope="col">education</th>
+                                        <th scope="col">phone</th>
+                                        <th scope="col">email</th>
+                                        <th scope="col">contact_person</th>
+                                        <th scope="col">requirement</th>
+                                        <th scope="col">description</th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -76,7 +84,16 @@ require_once "./code/subcategory/update.php"?>
                                         ?>
                                         <tr class="CatSiyahi">
                                             <td > <a href="#" class="question_content"> <?= $value["id"] ?></a></td>
+                                            <td><?= $value["category_id"] ?></td>
+                                            <td><?= $value["category_id"] ?></td>
+                                            <td><?= $value["min_salary"] ?></td>
+                                            <td><?= $value["company"] ?></td>
+                                            <td><?= $value["education"] ?></td>
+                                            <td><?= $value["phone"] ?></td>
                                             <td><?= $value["email"] ?></td>
+                                            <td><?= $value["contact_person"] ?></td>
+                                            <td><?= $value["requirement"] ?></td>
+                                            <td><?= $value["description"] ?></td>
                                             <td>
                                                 <div class="d-flex">
                                                     <button onclick="KatRedakte(<?= $value['id'] ?>,<?= $key ?> )"

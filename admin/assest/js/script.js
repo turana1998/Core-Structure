@@ -87,3 +87,27 @@ function KatRedakte(id,i){
     document.getElementById("id").value=ids;
 
 }
+function GetCategory(elem){
+    let opt=`<option value="" disabled="disabled" selected="selected">Sec</option>`;
+    let id=elem.value;
+    let PKS=[];
+    $.ajax({
+        url:`./code/subCategory/getCategory.php`,
+        data:{sub:true,id:id},
+        method:"POST",
+        success: function(data){
+            PKS=JSON.parse(data);
+            console.log(PKS)
+            for(let i=0;i<=Object.keys(PKS).length-2;i++){
+                opt+=`<option value="${i}">${PKS[i]}</option>`;
+             }
+            console.log(opt);
+            document.getElementById("subkategoriya").innerHTML=opt;
+
+        },
+        error:function(x,sts){
+            alert("error");
+        }
+
+    })
+}
