@@ -1,6 +1,8 @@
 <?php
 
 class DBConnection extends PDO{
+    // this is test
+
     const host="localhost";
     const dbname="core";
     const user="root";
